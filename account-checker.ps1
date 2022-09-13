@@ -5,7 +5,7 @@
 function Main-Function{
 Import-Module ActiveDirectory
 #set your list of accounts
-$UserList = get-content -Path C:\Users\danisac\Desktop\passwords\passwords.txt
+$UserList = get-content -Path C:\Users\<user>\passwords.txt
 
 Foreach ($Item in $UserList) {
 $user = $null
